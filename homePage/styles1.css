@@ -30,8 +30,8 @@
   }
   
   #navbar__logo {
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-color: #833ab4;
+    background-image: linear-gradient(to top, #45e1fc, #1d98fd, #3a3cb4);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -85,8 +85,8 @@
     outline: none;
     border-radius: 4px;
     background: #833ab4;
-    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: -webkit-linear-gradient(to right, #45e1fc, #1d98fd, #3a3cb4);
+    background: linear-gradient(to right, #45e1fc, #1d98fd, #3a3cb4);
     color: #fff;
     transition: all 0.3s ease;
   }
@@ -219,13 +219,11 @@
     background: #ee0979; /* fallback for old browsers */
     background: -webkit-linear-gradient(
       to right,
-      #ff6a00,
-      #ee0979
+      #45e1fc, #1d98fd, #3a3cb4
     ); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(
       to right,
-      #ff6a00,
-      #ee0979
+      #45e1fc, #1d98fd, #3a3cb4
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: 100%;
     -webkit-background-clip: text;
@@ -236,16 +234,14 @@
   
   .hero__description {
     font-size: 60px;
-    background: #da22ff; /* fallback for old browsers */
+    background: #2256ff; /* fallback for old browsers */
     background: -webkit-linear-gradient(
       to right,
-      #9114ff,
-      #da22ff
+      #1d98fd, #3a3cb4
     ); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(
       to right,
-      #8f0eff,
-      #da22ff
+      #1d98fd, #3a3cb4
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: 100%;
     -webkit-background-clip: text;
@@ -255,7 +251,7 @@
   }
   
   .highlight {
-    border-bottom: 4px solid rgb(132, 0, 255);
+    border-bottom: 4px solid #2256ff;
   }
   
   @media screen and (max-width: 768px) {
@@ -294,8 +290,8 @@
   
   .main__content h1 {
     font-size: 2rem;
-    background-color: #fe3b6f;
-    background-image: linear-gradient(to top, #ff087b 0%, #ed1a52 100%);
+    background-color:  #45e1fc;
+    background-image: linear-gradient(to top,  #45e1fc, #1d98fd);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -307,16 +303,14 @@
   
   .main__content h2 {
     font-size: 4rem;
-    background: #ff8177; /* fallback for old browsers */
+    background: #45e1fc; /* fallback for old browsers */
     background: -webkit-linear-gradient(
       to right,
-      #9114ff,
-      #da22ff
+      #1d98fd, #3a3cb4 ,#fc00ff
     ); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(
       to right,
-      #8f0eff,
-      #da22ff
+      #1d98fd, #3a3cb4,
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: 100%;
     -webkit-background-clip: text;
@@ -334,8 +328,8 @@
   .main__btn {
     font-size: 1.8rem;
     background: #833ab4;
-    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: -webkit-linear-gradient(to right, #45e1fc, #1d98fd, #3a3cb4,#fc00ff);
+    background: linear-gradient(to right, #45e1fc, #00dbde 0%, #fc00ff);
     padding: 20px 60px;
     border: none;
     border-radius: 4px;
@@ -360,7 +354,7 @@
     left: 0;
     width: 0;
     height: 100%;
-    background: #ff1ead;
+    background: rgb(100, 197, 253);
     transition: all 0.35s;
     border-radius: 4px;
   }
@@ -396,8 +390,8 @@
   
   #card-2 {
     background: #ff512f;
-    background: -webkit-linear-gradient(to right, #dd2476, #ff512f);
-    background: linear-gradient(to right, #dd2476, #ff512f);
+    background: -webkit-linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    background: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
   }
   
   /* Mobile Responsive */
@@ -484,7 +478,7 @@
   
   .services h1 {
     background-color: #ff8177;
-    background-image: linear-gradient(to right, #ff0844 0%, #f7673c 100%);
+    background-image: linear-gradient(to right, #45e1fc, #1d98fd, #3a3cb4);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -508,8 +502,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #fff;
+    color: white;
+    -webkit-text-stroke: 1px black;
     background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    background-image: url("../jobSearch/src/img/data-sci.jpeg");
+    background-size: cover;
     transition: 0.3s ease-in;
   }
   
@@ -526,7 +523,9 @@
       #a6ffcb,
       #12d8fa,
       #1fa2ff
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    );
+    background-image: url("../jobSearch/src/img/cyber-security.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
   }
   
   .services__card:nth-child(3) {
@@ -537,8 +536,21 @@
       #ff1361 67%,
       #fff800 100%
     );
+    background-image: url("../jobSearch/src/img/product-mngr.jpeg");
+    background-size: cover;
   }
   
+  .services__card:nth-child(4) {
+    background-image: linear-gradient(
+      -225deg,
+      #231557 0%,
+      #44107a 29%,
+      #ff1361 67%,
+      #fff800 100%
+    );
+    background-image: url("../jobSearch/src/img/full-stack.jpeg");
+  }
+
   .services__card h2 {
     text-align: center;
   }
