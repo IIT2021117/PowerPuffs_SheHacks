@@ -6,7 +6,8 @@ const chalk = require('chalk');
 const config = require('./config');
 const APP_ID = require('./config');
 require('dotenv').config();
-
+ console.log(config);
+ 
 const headers = {
   'Content-Type': 'application/json',
   'Access-Control-Allow-Origin': '*',
@@ -44,3 +45,6 @@ server.listen(process.env.PORT || 3000, () => {
 const decodeParams = searchParams => Array
   .from(searchParams.keys())
   .reduce((acc, key) => ({ ...acc, [key]: searchParams.get(key) }), {});
+
+console.log(config.APP_ID);
+console.log(config.API_KEY);
