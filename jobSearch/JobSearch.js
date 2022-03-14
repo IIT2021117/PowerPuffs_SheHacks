@@ -35,7 +35,7 @@ export class JobSearch {
       this.resultsContainer.innerHTML = "";
       const { search, location } = extractFormData(this.searchForm);
       fetch(
-        `https://shielded-sierra-25068.herokuapp.com//?search=${search}&location=${location}&country=${this.countryCode}`
+        `https://api-server-rishika.herokuapp.com//?search=${search}&location=${location}&country=${this.countryCode}`
       )
         .then((response) => response.json())
         .then(({ results }) => {
