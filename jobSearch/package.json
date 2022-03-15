@@ -578,7 +578,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html",
-    "build": "parcel build"
+    "build": "parcel build",
+    "heroku-postbuild": "parcel build"
   },
   "author": "",
   "license": "ISC"
